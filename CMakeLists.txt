@@ -3,6 +3,6 @@ project(Interviews)
 
 set(CMAKE_CXX_STANDARD 23)
 
+add_subdirectory(src)
 add_subdirectory(tests)
-
-add_executable(Interviews main.cpp src/bits/CalBits.cpp src/bits/CalBits.h)
+add_subdirectory(3rdparty/googletest)

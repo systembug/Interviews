@@ -4,7 +4,7 @@
 
 #include "CalBits.h"
 
-namespace Interviews {
+namespace interviews::bits {
     bool CalBits::init() {
 
     }

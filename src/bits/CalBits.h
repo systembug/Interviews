@@ -2,12 +2,12 @@
 // Created by cys on 21. 10. 10..
 //
 
-#ifndef INTERVIEWS_CALBITS_H
-#define INTERVIEWS_CALBITS_H
+#ifndef INTERVIEWS_BITS_CALBITS_H
+#define INTERVIEWS_BITS_CALBITS_H
 
 #include <cstdint>
 
-namespace Interviews {
+namespace interviews::bits {
     class CalBits {
     public:
         ~CalBits() = default;
@@ -20,4 +20,4 @@ namespace Interviews {
 }
 
 
-#endif //INTERVIEWS_CALBITS_H
+#endif //INTERVIEWS_BITS_CALBITS_H

@@ -3,8 +3,7 @@ project(Interviews_tests)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_subdirectory(googletest)
 include_directories(${CMAKE_PROJECT_INCLUDE}/googletest/googletest/include)
 
-add_executable(Interviews_tests bits/CalBits.cpp)
-target_link_libraries(Interviews_tests gtest gtest_main)
+add_executable(Interviews_tests main.cpp bits/CalBits.cpp bits/CalBits.h main.cpp)
+target_link_libraries(Interviews_tests gtest)
