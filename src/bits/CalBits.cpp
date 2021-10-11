@@ -3,10 +3,11 @@
 //
 
 #include "CalBits.h"
+#include "../../src/bits/CalBits.h"
 
 namespace interviews::bits {
     bool CalBits::init() {
-
+        return false;
     }
 
     uint16_t CalBits::process(uint64_t x) {
@@ -20,6 +21,6 @@ namespace interviews::bits {
     }
 
     bool CalBits::release() {
-
+        return false;
     }
 }
